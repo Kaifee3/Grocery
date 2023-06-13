@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border: border-box;
+}
+.logos{
+    width: 60px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.Search{
+    
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 16px;
+    font-size: 17px;
+   
+}
+.td button{
+    border: none;
+    transform: scale(1.04);
+}
+td{
+    width: 16.6%;
+    text-align:center;
+    color:rgb(15, 123, 232);
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(15, 123, 232);
+}
+td:hover{
+ transform: scale(1.04);   
+ background-color: rgb(63, 192, 243) ;
+}
+img{
+    width: 100%;
+    
+}
+h1{
+    color: rgb(76, 131, 198);
+    text-align: center;
+    
+}
+h1:hover{
+    transform: scale(1.04);
+}
+.Categories{
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    padding: 15px 10px;
+}
+.Categorie h4{
+    padding: 5px;
+    text-align: center;
+}
+.Categorie img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border-radius: 50px;
+    float: right;
+}
+.Categorie img:hover{
+    transform: scale(1.08);
+}
+.Categorie button{
+      padding: 5px 30px;
+      border: none;
+      outline: none;
+      background-color: rgb(7, 51, 161);
+      color: aliceblue;
+      cursor: pointer;
+      border-radius: 50px;
+      font-size: 20px;
+      display: block;
+      margin: 0 auto;
+      transform: 0.2s all;
+}
+.Categorie button:hover{
+    transform: scale(1.08);
+}
+#video { 
+    width: 920px; 
+    height: 350px; 
+    margin: 0 auto; 
+} 
+
+#play1 { 
+    width: 400px; 
+    height: 300px; 
+    float: left; 
+} 
+@media (max-width:767px) {
+    .play1 {
+        position: relative;
+        padding-bottom: 56.25%; 
+        padding-top: 30px; 
+        overflow: hidden;
+    }
+    .play2 {
+        margin-left: 0;
+    }
+}
+
+.FRUIT{
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    padding: 15px 10px;
+}
+.FRUITS h4{
+    padding: 5px;
+    text-align: center;
+}
+.FRUITS img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border-radius: 50;
+
+}
+.FRUITS img:hover{
+    transform: scale(1.08);
+}
+.FRUITS button{
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      background-color: rgb(88, 123, 211);
+      color: aliceblue;
+      cursor: pointer;
+      border-radius: 50px;
+      font-size: 10px;
+      display: block;
+      margin: 0 auto;
+      transform: 0.2s all;
+}
+.FRUITS button:hover{
+    transform: scale(1.08);
+}
+.VEGETABLE{
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    padding: 15px 10px;
+}
+.VEGETABLES h4{
+    padding: 5px;
+    text-align: center;
+}
+.VEGETABLES img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border-radius: 50;
+
+}
+.VEGETABLES img:hover{
+    transform: scale(1.08);
+}
+.VEGETABLES button{
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      background-color: rgb(88, 123, 211);
+      color: aliceblue;
+      cursor: pointer;
+      border-radius: 50px;
+      font-size: 10px;
+      display: block;
+      margin: 0 auto;
+      transform: 0.2s all;
+}
+.VEGETABLES button:hover{
+    transform: scale(1.08);
+}
+.DAIRYS{
+display: grid;
+grid-template-columns: repeat(7 ,1fr);
+ grid-column-gap: 10px;
+ grid-row-gap: 15px; 
+ padding: 15px 10px; 
+ }
+.DAIRY h4{ 
+padding: 5px; 
+text-align: center; 
+} 
+.DAIRY img{ 
+width: 100%; 
+height: 300px; 
+ object-fit: cover; 
+cursor: pointer;
+transition: 0.2s ease;
+border-radius: 50PX; 
+}
+.DAIRY img:hover{
+ transform: scale(1.08); 
+ } 
+ .DAIRY button{ 
+ padding: 10px 20px;
+ border: none; 
+outline: none; 
+ background-color: rgb(88, 123, 211);
+color: aliceblue;
+ cursor: pointer;
+border-radius: 50px; 
+font-size: 10px; 
+display: block;
+ margin: 0 auto;
+  transform: 0.2s all;
+ } 
+ .DAIRY button:hover{
+transform: scale(1.08); 
+} 
+.DRINK{ 
+display: grid;
+ grid-template-columns: repeat(7 ,1fr); 
+grid-column-gap: 10px; 
+ grid-row-gap: 15px;
+ padding: 15px 10px; 
+} 
+.DRINKS h4{
+padding: 5px; 
+text-align: center;
+ } 
+.DRINKS img{ 
+width: 100%; 
+height: 300px;
+object-fit: cover; 
+cursor: pointer;
+transition: 0.2s ease;
+border-radius: 50PX;
+}
+.DRINKS img:hover{ 
+ transform: scale(1.08);
+} 
+.DRINKS button{ 
+ padding: 10px 20px; 
+ border: none; 
+ outline: none;
+ background-color: rgb(88, 123, 211);
+color: aliceblue; cursor: pointer;
+border-radius: 50px;
+font-size: 10px;
+ display: block;
+ margin: 0 auto;
+transform: 0.2s all;
+ } 
+.DRINKS button:hover{ 
+ transform: scale(1.08); 
+ } 
+.nextpage{ 
+float: right;
+margin-right: 25px;
+} 
+.foot{ 
+text-align: center; 
+padding: 3px; 
+background-color: rgb(185, 194, 212); 
+color: rgb(45, 164, 93);
+} 
+.foot img{ 
+ width: 10%; 
+height: 30px;
+} 
+.foot img:hover{ 
+transform: scale(1.08); 
+} 
+@media screen and (max-width:1000px) { .Categories{ grid-template-columns: repeat(1 , 1fr); } }
+@media screen and (max-width:768px) { .Categories{ grid-template-columns: repeat(1 ,1fr); } }
