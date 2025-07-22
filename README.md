@@ -2,7 +2,7 @@
 A simple and responsive Grocery Store Website built using HTML and CSS. This project showcases a clean, user-friendly UI for a typical online grocery platform. It's ideal for beginners learning frontend development or for showcasing basic web design skills.
 
 📌 Features
-✅ Clean and minimalistic design
+✅ Clean and minimalistic designs
 
 ✅ Fully responsive layout (mobile-friendly)
 
